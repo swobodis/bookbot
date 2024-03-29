@@ -8,4 +8,9 @@ def get_num_words(text):
     words = text.split()
     return len(words)
 
+def count_occurance_of_chars(text):
+    lower_text = text.lower()
+    
+
+
 main()
